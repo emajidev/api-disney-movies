@@ -1,0 +1,30 @@
+swagger: '2.0'
+info:
+    version: 0.1.0
+    title: disney-movies-api
+    description: disney-movies API
+schemes:
+    - http
+    - https
+basePath: /api/v1/disney-movies
+
+consumes:
+    - application/json
+produces:
+    - application/json
+
+securityDefinitions:
+    Bearer:
+        type: apiKey
+        name: Authorization
+        in: header
+
+paths:
+    /:
+        get:
+            tags:
+                - API welcome
+            description: API welcome
+            responses:
+                200:
+                    description: Return a welcome message

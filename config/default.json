@@ -1,3 +1,4 @@
 {
-  "basePath": "/api/v1/disney-movies"
+  "basePath": "/api/v1/disney-movies",
+  "SWAGGER_API_SPEC":"/api/v1/disney-movies/spec"
 }
