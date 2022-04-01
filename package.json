@@ -16,7 +16,7 @@
         "prepare": "husky install"
     },
     "keywords": [],
-    "author": "",
+    "author": "Emanuel Jimenez",
     "license": "ISC",
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.16.0",
